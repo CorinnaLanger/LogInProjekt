@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #3F3D56;
+}
+
+#grid-container-nav {
+    display: grid;
+    grid-template-columns: 104px 237px 97px;
+    
+}
+#eye {
+    margin-top: 50px;
+    margin-left: 122px;
+}
+#logOut {
+    width: 97px;
+    height: 26px;
+    margin-left: 1220px;
+    margin-top: 68px;
+    background: none;
+    border: none;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FF002E;
+}
+#welcomeUser {
+    width: 237px;
+    height: 26px;
+    margin-left: 855px;
+    margin-top: 68px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #8985A8;
+}
+#grid-container-page {
+    display: grid;
+    grid-template-columns: 823.48px 421px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "hacker hacker secret"
+    "hacker hacker secret"
+    "hacker hacker notclick"
+    "hacker hacker button";  
+}
+.hacker {
+    grid-area: hacker;
+    margin-top: 221px;
+}
+.secret {
+    grid-area: secret;
+    margin-top: 396px;
+}
+#secretContent {
+    grid-area: button;
+    width: 296px;
+    height: 66.6px;
+    transform: translateY(-130px);
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    background: #6C63FF;
+    border-radius: 10px;
+    color: #2F2E41;
+}
+.notclickButton {
+    grid-area: notclick;
+    width: 488px;
+    height: 37px;
+    transform: translateY(-155px); 
+}
+
+#modalBackground {
+    position: absolute;
+    width: 1111px;
+    height: 677px;
+    margin-left: 186.36px; 
+    top: 173px;
+    background: #8985A8;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+}
+#lab {
+    display: block;
+    text-align: center;
+    margin-top: 87px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    color: #2F2E41;
+}
+#flex {
+    display: flex;
+    flex-direction: column;    
+    
+}
+.userLog {
+    margin-left: 256px;
+    width: 598px;
+    height: 67px;
+    padding-left: 23px;
+    background: #C4C4C4;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px; 
+}
+#username {
+    margin-bottom: 30px;
+    margin-top: 53px;
+}
+#send {
+    margin-top: 41px;
+    margin-left: 256px;
+    width: 598px;
+    height: 67px;
+    background: #6C63FF;
+    border-radius: 10px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+#fehlerMeldung {
+    color: red;
+}
+

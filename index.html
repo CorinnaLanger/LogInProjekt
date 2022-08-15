@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LogIn</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div id="grid-container-nav">
+        <img src="./assets/img/Vector (3).png" alt="watcheye" id="eye" />
+        <p id="welcomeUser">welcome, <span id="akuellerUser"></span></p>
+
+        <button id="logOut">>log out</button>
+      </div>
+    </nav>
+    <main>
+      <section>
+        <article>
+          <div id="grid-container-page">
+            <img
+              src="./assets/img/undraw_hacker_mind_6y85 1.png"
+              alt="hacker"
+              class="hacker"
+            />
+            <img
+              src="./assets/img/Top Secret.png"
+              alt="Secret"
+              class="secret"
+            />
+
+            <img
+              src="./assets/img/You may not click the button..png"
+              alt="clickButton"
+              class="notclickButton"
+            />
+            <button id="secretContent">>Secret Content</button>
+          </div>
+        </article>
+        <div id="modalBackground">
+          <form>
+            <label for="login" name="einloggen" id="lab">>LOGIN</label>
+            <div id="flex">
+            <input
+              type="text"
+              name="einloggen"
+              placeholder="username"
+              id="username"
+              class="userLog"
+            />
+            <input
+              type="password"
+              id="pass"
+              placeholder="password"
+              name="einloggen"
+              class="userLog"
+              required
+            />
+            <input type="submit" name="einloggen" id="send" value="SUBMIT" />
+          </form>
+          <p id="fehlerMeldung"></p>
+        </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
